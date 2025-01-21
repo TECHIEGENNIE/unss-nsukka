@@ -212,6 +212,65 @@ h6 {
 
 
 --------------------------------------------------------------*/
+.steps{
+  width: 70%;
+}
+
+.steps form{
+  margin-top: 2.4rem;
+}
+
+.steps h2{
+  margin-left: 10px;
+}
+
+.steps li{
+  list-style-type: square;
+}
+
+.index-page{
+  background-color: rgb(230, 228, 228);
+}
+
+
+.form input{
+  padding: 12px;
+  width: 32rem;
+  outline: none;
+  border: none;
+  margin-bottom: 0.9rem;
+  background-color: rgb(230, 228, 228);
+  border-radius: 1rem;
+}
+
+.form button{
+  background-color: #059652;
+  color: #fff;
+  border: none;
+  box-shadow: 4px 1px 6px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  width: 7rem;
+  font-size: 1rem;
+  font-weight: 800;
+  border-radius: 1rem;
+  /* margin-top: 1rem; */
+}
+
+.result{
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  /* flex-wrap: nowrap; */
+  margin: 2rem;
+  box-shadow: 4px 1px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+}
+
+.step{
+  margin-left: 20px;
+}
+
+
 .modal-content {
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -237,6 +296,10 @@ h6 {
 .login-h5{
   font-weight: 800;
   font-size: 2.0rem;
+}
+
+.main-about{
+  width: 50%;
 }
 
 
@@ -375,6 +438,7 @@ h6 {
     left: -100%;
     visibility: visible;
   }
+
 }
 
 /* Mobile Navigation */
@@ -501,6 +565,17 @@ h6 {
   .mobile-nav-active .navmenu>ul {
     display: block;
   }
+
+  .result{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form input{
+    width: 29rem;
+  }
+  
 }
 
 /*--------------------------------------------------------------
@@ -1708,10 +1783,7 @@ section,
 }
 
 @media (min-width: 991px) {
-  .about .our-story {
-    /* padding: 55%; */
-    /* width: 100%; */
-  }
+ 
 }
 
 .about .our-story h4 {
@@ -1777,7 +1849,7 @@ section,
     /* position: absolute; */
     top: 0;
     right: 0;
-    min-height: 600px;
+    /* min-height: 600px; */
   }
 }
 
@@ -2757,9 +2829,7 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
+
 
 /*--------------------------------------------------------------
 # Widgets

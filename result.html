@@ -53,103 +53,55 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      
-
     </div>
   </header>
 
-  <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title dark-background" style="background-image: url(assets/img/page-title-bg.jpg);">
+    <div class="page-title dark-background" style="background-image: url(assets/img/girl-lab-coat-safety-glasses-looking-through-microscope.jpg);">
       <div class="container position-relative">
-        <h1>Contact</h1>
+        <h1>Check Result</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Contact</li>
+            <li class="current">Check Result</li>
           </ol>
         </nav>
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="200">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-6">
-            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-geo-alt"></i>
-              <h3>Address</h3>
-              <p>Nsukka, Enugu State.</p>
-            </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-telephone"></i>
-              <h3>Call Us</h3>
-              <p>08084432380</p>
-            </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-envelope"></i>
-              <h3>Email Us</h3>
-              <p>info@unssn.com</p>
-            </div>
-          </div><!-- End Info Item -->
-
-        </div>
-
-        <div class="row gy-4 mt-1">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div><!-- End Google Maps -->
-
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="400">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
-        </div>
-
+    <section class="result" data-aos="fade-up" data-aos-delay="200">
+      <div class="steps step" data-aos="fade-up" data-aos-delay="200">
+        <h2>Steps To Follow:</h2>
+        <ul>
+          <li>Enter your <b>USERNAME</b> and <b>PASSWORD</b> in the form provided below.</li>
+          <li>If the registration number and password are correct you will be granted access to the portal.</li>
+          <li>Once logged in, you will see a menu by your left listing services provided by the portal.</li>
+          <li>Click any of the menu like ' Profile', 'Result', 'Library' to have access to the service.</li>
+          <li>Remember to log out once you are done with the portal</li>
+        </ul>
       </div>
+      <div class="steps">
+        <form action="" data-aos="fade-up" data-aos-delay="200">
+          
+          <div class="form">
+            <input placeholder="Username" type="text" id="username" name="username" required> <br>
+         
+          <input placeholder="Password" type="password" id="password" name="password" required> <br>
 
-    </section><!-- /Contact Section -->
+          <button>Login</button>
+          </div>
 
-  </main>
+        </form>
+      </div>
+    </section>
+
+
+
+
+
+
 
   <footer id="footer" class="footer dark-background">
 
@@ -252,51 +204,7 @@
 
 
 
-  <!-- Modal for Check Result -->
-<div class="modal fade" id="checkResultModal" tabindex="-1" aria-labelledby="checkResultModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title login-h5" id="checkResultModalLabel">Check Result</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="row">
-          <!-- Steps to Follow -->
-          <div class="col-md-6">
-            <h6>Steps to Follow:</h6>
-            <ul>
-              <li>Enter your <strong>USERNAME</strong> and <strong>PASSWORD</strong> in the form provided below.</li>
-              <li>If the registration number and password are correct, you will be granted access to the portal.</li>
-              <li>Once logged in, you will see a menu by your left listing services provided by the portal.</li>
-              <li>Click any of the menu items like <strong>'Profile'</strong>, <strong>'Result'</strong>, <strong>'Library'</strong> to access the service.</li>
-              <li>Remember to log out once you are done with the portal.</li>
-            </ul>
-          </div>
-          <!-- Login Form -->
-          <div class="col-md-6">
-            <h6 class="login-h">Login Portal:</h6>
-            <form>
-              <div class="mb-3">
-                <label for="username" class="form-label">Username</label>
-                <input type="text" class="form-control" id="username" placeholder="Enter your username">
-              </div>
-              <div class="mb-3">
-                <label for="password" class="form-label">Password</label>
-                <input type="password" class="form-control" id="password" placeholder="Enter your password">
-              </div>
-              <button type="submit" class="btn btn-success w-100">Login</button>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
+ 
 </body>
 
 </html>
